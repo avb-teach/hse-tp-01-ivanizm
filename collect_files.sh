@@ -57,7 +57,7 @@ resolve_name_conflict() {
         ((counter++))
     done
     
-    echo "$new_path"
+    echo "$new_path"    
 }
 
 if [[ -n "$max_depth" ]]; then
